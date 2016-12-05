@@ -1,5 +1,5 @@
 <launch>
-  <arg name="joy_config" default="logitech-holonomic" />
+  <arg name="joy_config" default="logitech_holonomic" />
   <arg name="joy_dev" default="/dev/input/js0" />
   
   <node pkg="joy" type="joy_node" name="joy_node">
